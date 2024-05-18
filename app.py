@@ -13,7 +13,7 @@ def home():
 @app.route("/get")
 def get_bot_response():
 
-    genai.configure(api_key="AIzaSyBnNASKxCIHYEImiCuPJ7Q2SMqvR99xts8")
+    genai.configure(api_key="YOUR_API_KEY")
 
     # Set up the model
     generation_config = {
